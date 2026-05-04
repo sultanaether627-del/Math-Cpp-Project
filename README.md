@@ -8,6 +8,7 @@ Axiom Array: Quantum Grid is a C++ math-strategy board game built as a modular e
 - Modular math logic separated into `MathLogic.cpp`
 - Configurable win condition and target score
 - Clean terminal output with board rendering
+- and the soul of five uni students 
 
 ## Project Structure
 - `src/main.cpp`: program entry point and game initialization
@@ -17,6 +18,7 @@ Axiom Array: Quantum Grid is a C++ math-strategy board game built as a modular e
 - `include/`: public headers for game engine classes
 - `assets/`: generated cover and demo screenshot assets
 - `presentation_notes.md`: slide outline and speaking notes
+- and the hops of the students futuer scors pass 
 
 ## Build and Run
 ```bash
@@ -40,6 +42,7 @@ A full non-interactive test run was completed successfully. Example final outcom
 - Michael Score: `130`
 - System Score: `120`
 - Winner: `Michael`
+- the satisfaction and frustraion of the player has been tested 
 
 ## Assets
 - `assets/cover.svg`: project front cover graphic
