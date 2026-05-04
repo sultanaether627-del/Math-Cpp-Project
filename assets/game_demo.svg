@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#111827"/>
+  <rect x="60" y="60" width="1080" height="780" rx="30" fill="#0f172a"/>
+  <text x="100" y="120" fill="#7dd3fc" font-family="Consolas, monospace" font-size="32">Terminal demo: game output snapshot</text>
+  <text x="100" y="170" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">======= AXIOM ARRAY: Quantum Grid =======</text>
+  <text x="100" y="200" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">Mathematics-based strategic placement game</text>
+  <text x="100" y="230" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">Target Score: [150] - or fill the board!</text>
+  <text x="100" y="280" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">--- Michael's Turn ---</text>
+  <text x="100" y="310" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">Current Score [120]</text>
+  <text x="100" y="340" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">Your Math Tile Value is: =&gt; 5 &lt;=</text>
+  <text x="100" y="370" fill="#86efac" font-family="Consolas, monospace" font-size="18">[+] Awesome move! Scored 10 points.</text>
+  <text x="100" y="430" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">=== Current Game Board State ===</text>
+  <text x="100" y="460" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">    [0] [1] [2] [3] [4] </text>
+  <text x="100" y="490" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">[0]  5   5   5   5   5  </text>
+  <text x="100" y="520" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">[1]  5   5   5   5   5  </text>
+  <text x="100" y="550" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">[2]  5   5   5   5   5  </text>
+  <text x="100" y="580" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">[3]  5   5   5   5   5  </text>
+  <text x="100" y="610" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">[4]  5   5   5   5   5  </text>
+  <text x="100" y="660" fill="#7dd3fc" font-family="Consolas, monospace" font-size="20">========== GAME OVER ==========</text>
+  <text x="100" y="690" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">Michael Score: 130</text>
+  <text x="100" y="720" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">System Score: 120</text>
+  <text x="100" y="750" fill="#fbbf24" font-family="Consolas, monospace" font-size="20">>>> Winner : Michael!</text>
+</svg>
