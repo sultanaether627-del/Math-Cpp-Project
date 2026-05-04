@@ -11,7 +11,7 @@ public:
     ~AxiomBoard() = default;
 
     // Prints the board to the screen
-     */
+
     void displayBoard() const;
 
     /**
