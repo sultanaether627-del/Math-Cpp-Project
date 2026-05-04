@@ -98,10 +98,13 @@ void GameManager::systemAutoTurn(Player& currentP) {
 
     if (placed) {
         int tileVal = MathLogic::generateTileValue();
-        board_->placeTile(x, y, tileVal);
-        int score = MathLogic::calculateAdjacencyScore(*board_, x, y, tileVal);
-        currentP.score += score;
-        std::cout << "[SYSTEM] Placed tile (" << tileVal << ") at [" << x << " " << y << "] for " << score << " points.\n";
+        if (board_->placeTile(x, y, tileVal)) {
+            int score = MathLogic::calculateAdjacencyScore(*board_, x, y, tileVal);
+            currentP.score += score;
+            std::cout << "[SYSTEM] Placed tile (" << tileVal << ") at [" << x << " " << y << "] for " << score << " points.\n";
+        } else {
+            std::cout << "System failed to place a tile at [" << x << " " << y << "]!\n";
+        }
     } else {
         std::cout << "System forfeited out of empty spaces!\n";
     }

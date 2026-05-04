@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071a52"/>
+      <stop offset="100%" stop-color="#1f3d8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="740" rx="40" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.24)" stroke-width="4"/>
+  <text x="120" y="180" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700">Axiom Array</text>
+  <text x="120" y="260" fill="#a8c7ff" font-family="Segoe UI, Arial, sans-serif" font-size="44">Quantum Grid</text>
+  <text x="120" y="340" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28">A C++ strategic math-tile board game</text>
+  <g transform="translate(120,430)">
+    <rect x="0" y="0" width="360" height="220" rx="20" fill="#0b2b78" opacity="0.95"/>
+    <text x="30" y="50" fill="#d0e4ff" font-family="Consolas, monospace" font-size="24">Board: 5x5 quantum grid</text>
+    <text x="30" y="90" fill="#d0e4ff" font-family="Consolas, monospace" font-size="24">Goal: hit target score or fill board</text>
+    <text x="30" y="130" fill="#d0e4ff" font-family="Consolas, monospace" font-size="24">Players: Michael vs System</text>
+    <text x="30" y="170" fill="#c3d7ff" font-family="Consolas, monospace" font-size="20">Modular math engine ready for extension</text>
+  </g>
+  <text x="120" y="720" fill="#99b6ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">Includes source code, game demo, and presentation notes</text>
+</svg>

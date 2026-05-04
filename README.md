@@ -1,18 +1,54 @@
-# Axiom Array: Quantum Grid (Math-Cpp-Project)
+# Axiom Array: Quantum Grid
 
-## 🚀 Next Steps: Instructions for Person 2 (Math & Logic)
+Axiom Array: Quantum Grid is a C++ math-strategy board game built as a modular engine. Players place math tiles on a 5x5 quantum grid to score points while competing against a system-controlled opponent.
 
-Hi Person 2! Michael here. I've finished setting up the core Game Engine (Board logic, Player Turns, System loop). 
+## Key Features
+- 5x5 board with tile placement and boundary checks
+- Turn-based play: human player versus system AI
+- Modular math logic separated into `MathLogic.cpp`
+- Configurable win condition and target score
+- Clean terminal output with board rendering
 
-Your job is to hook your **mathematical formulas** into the game. I made it extremely simple where to put everything.
+## Project Structure
+- `src/main.cpp`: program entry point and game initialization
+- `src/GameManager.cpp`: game loop, turn management, player input, system play
+- `src/AxiomBoard.cpp`: board state, tile placement, display, fill detection
+- `src/MathLogic.cpp`: placeholder math logic functions ready for extension
+- `include/`: public headers for game engine classes
+- `assets/`: generated cover and demo screenshot assets
+- `presentation_notes.md`: slide outline and speaking notes
 
-### Where to add your code:
-All your work will go directly into **`src/MathLogic.cpp`**. 
+## Build and Run
+```bash
+cd /workspaces/Math-Cpp-Project
+g++ -std=c++17 src/*.cpp -Iinclude -o math_game
+./math_game
+```
 
-I have created three empty functions for you there:
-1. `generateTileValue()`: Write your virtual dice/randomization math here (e.g. prime number sequences) to drop tiles.
-2. `calculateAdjacencyScore()`: Write your adjacency and efficiency point-multiplier formulas here. The board state and placement `(x, y)` are passed right to you!
-3. `checkWinCondition()`: Fill in how players actually win (e.g. geometric sequences, target score limit).
+## Controls
+- Enter two integers when prompted: `Row Col`
+- Valid row/column values are `0` through `4`
+- The system AI automatically places its tile in the first available slot
 
-### How to test:
-You just need to compile and run the project from `src/main.cpp`. My `GameManager` engine will automatically call your functions in `MathLogic.cpp`. Have fun!
+## Current Implementation Notes
+- `MathLogic::generateTileValue()` currently returns a fixed tile value of `5`
+- `MathLogic::calculateAdjacencyScore()` currently returns a fixed score of `10`
+- `MathLogic::checkWinCondition()` ends the game when a player reaches the target score or when the board is full
+
+## Test Result
+A full non-interactive test run was completed successfully. Example final outcome:
+- Michael Score: `130`
+- System Score: `120`
+- Winner: `Michael`
+
+## Assets
+- `assets/cover.svg`: project front cover graphic
+- `assets/game_demo.svg`: captured terminal demo screenshot
+- `presentation_notes.md`: presentation slide notes and talking points
+
+## Next Development Steps
+1. Implement tile generation math in `MathLogic::generateTileValue()`
+2. Add adjacency and scoring rules in `MathLogic::calculateAdjacencyScore()`
+3. Refine win conditions in `MathLogic::checkWinCondition()`
+4. Improve AI selection and board strategy
+5. Add richer UI or save/load functionality
